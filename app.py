@@ -5,8 +5,8 @@ import numpy as np
 st.title("🎓 Student Performance Prediction")
 
 # Load pre-trained model and scaler
-model = joblib.load("model/student_model(1).pkl")
-scaler = joblib.load("model/scaler(1).pkl")
+model = joblib.load("model/student_model.pkl")
+scaler = joblib.load("model/scaler.pkl")
 
 # Input fields as select options
 gender = st.selectbox("Gender", ["Male", "Female"])
